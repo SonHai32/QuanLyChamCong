@@ -1,0 +1,15 @@
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\QL_Cham_Cong.exe
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\QL_Cham_Cong.deps.json
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\QL_Cham_Cong.runtimeconfig.json
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\QL_Cham_Cong.runtimeconfig.dev.json
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\QL_Cham_Cong.dll
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\QL_Cham_Cong.pdb
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.csprojAssemblyReference.cache
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.Form1.resources
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.csproj.GenerateResource.cache
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.AssemblyInfoInputs.cache
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.AssemblyInfo.cs
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.csproj.CoreCompileInputs.cache
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.dll
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.pdb
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.genruntimeconfig.cache
