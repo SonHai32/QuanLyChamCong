@@ -4,9 +4,18 @@ using System.Text;
 
 namespace DTO
 {
-    class DTO_Office
+    public class DTO_Office
     {
         private string officeName;
         private string officeID;
+
+        public DTO_Office(string officeName, string officeID)
+        {
+            this.OfficeName = officeName;
+            this.OfficeID = officeID;
+        }
+
+        public string OfficeName { get => officeName; set => officeName = value; }
+        public string OfficeID { get => officeID; set => officeID = value; }
     }
 }

@@ -5,7 +5,6 @@ F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\GUI.dll
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\GUI.pdb
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.csprojAssemblyReference.cache
-F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.MainForm.resources
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.csproj.GenerateResource.cache
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.AssemblyInfoInputs.cache
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.AssemblyInfo.cs
@@ -23,3 +22,7 @@ F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.csproj.CopyComplete
 F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.frm_UC_Staff.resources
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\QL_Cham_Cong.frm_Main_form.resources
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.frm_UC_Department.resources
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.frm_UC_Office.resources
+F:\WinForm_Applications_Projects\QL_Cham_Cong\QL_Cham_Cong\obj\Debug\netcoreapp3.1\GUI.frm_UC_Attendance.resources

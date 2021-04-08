@@ -17,7 +17,7 @@ namespace QL_Cham_Cong
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new frm_Main_form());
         }
     }
 }

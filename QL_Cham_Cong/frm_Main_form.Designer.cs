@@ -1,7 +1,7 @@
 ﻿
 namespace QL_Cham_Cong
 {
-    partial class MainForm
+    partial class frm_Main_form
     {
         /// <summary>
         ///  Required designer variable.

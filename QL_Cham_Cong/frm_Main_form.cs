@@ -11,22 +11,20 @@ using GUI;
 namespace QL_Cham_Cong
 {
 
-    public partial class MainForm : Form
+    public partial class frm_Main_form : Form
     {
 
 
         private UserControl currentUC;
-        public MainForm()
+        public frm_Main_form()
         {
             InitializeComponent();
             Theme customTheme = new Theme();
             this.BackColor = customTheme.BACKGROUND;
-            frm_UC_Main ucMain = new frm_UC_Main();
-            frm_UC_Staff ucStaff = new frm_UC_Staff();
-            this.currentUC = ucStaff;
-            this.currentUC.Size = this.pn_main.Size;
-            this.pn_main.Controls.Add(this.currentUC);
+            this.loadUDForm(new frm_UC_Main(this));
+            this.theme_load(); 
         }
+
         public IEnumerable<Control> GetAll(Control control, Type type)
         {
             var controls = control.Controls.Cast<Control>();
@@ -34,6 +32,16 @@ namespace QL_Cham_Cong
             return controls.SelectMany(ctrl => GetAll(ctrl, type))
                                       .Concat(controls)
                                       .Where(c => c.GetType() == type);
+        }
+
+        public void loadUDForm(UserControl uc)
+        {
+            
+            this.pn_main.Controls.Remove(this.currentUC);
+            this.currentUC = uc;
+            this.currentUC.Size = this.pn_main.Size;
+            this.pn_main.Controls.Add(this.currentUC);
+            theme_load();
         }
 
         private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)

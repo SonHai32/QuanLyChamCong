@@ -12,5 +12,10 @@ namespace GUI
         public Color PARAGRAPH = Color.FromArgb(95, 108, 123);
         public Color BUTTON = Color.FromArgb(61, 169, 252);
         public Color BUTTON_TEXT = Color.FromArgb(255, 255, 254);
+
+
+        public Color PRIMARY = Color.FromArgb(255, 255, 254);
+        public Color SECONDARY = Color.FromArgb(255, 255, 254);
+        public Color DANGER = Color.FromArgb(255, 255, 254);
     }
 }
