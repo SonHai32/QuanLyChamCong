@@ -7,7 +7,7 @@ using DTO;
 
 namespace DAL
 {
-    class DAL_Staff
+    public class DAL_Staff
     {
         SqlConnection con = DAL.DAL_DB_Connect.connection;
         
@@ -60,7 +60,7 @@ namespace DAL
                 return false;
             }
         }
-        public bool deleteData(string staffID)
+        public bool DeleteStaffData(string staffID)
         {
             try
             {

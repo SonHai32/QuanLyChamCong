@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using DTO; 
 namespace DAL
 {
-    class DAL_Office
+    public class DAL_Office
     {
         private SqlCommand getCommand(string commandText)
         {

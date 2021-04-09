@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using DTO;
 namespace DAL
 {
-    class DAL_DB_Connect
+    public class DAL_DB_Connect
     {
         public static SqlConnection connection ;
         
