@@ -12,7 +12,7 @@ namespace DAL
             SqlConnection con = DAL.DAL_DB_Connect.connection;
             return  new SqlCommand(commandText, con);
         }
-        public bool insertOffice(DTO.DTO_Office newOffice)
+        public bool insertData(DTO.DTO_Office newOffice)
         {
             try
             {
@@ -31,7 +31,7 @@ namespace DAL
             }
         }
 
-        public bool updateOffice(DTO.DTO_Office office)
+        public bool updateData(DTO.DTO_Office office)
         {
             try
             {
@@ -50,7 +50,7 @@ namespace DAL
 
         
 
-        public bool deleteOffice(string officeID)
+        public bool deleteData(string officeID)
         {
             try
             {
