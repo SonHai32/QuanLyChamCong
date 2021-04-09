@@ -7,7 +7,11 @@ namespace DAL
 {
     class DAL_Office
     {
-
+        private SqlCommand getCommand(string commandText)
+        {
+            SqlConnection con = DAL.DAL_DB_Connect.connection;
+            return  new SqlCommand(commandText, con);
+        }
         public bool insertOffice(DTO.DTO_Office newOffice)
         {
             try
@@ -31,12 +35,27 @@ namespace DAL
         {
             try
             {
-              
-                SqlConnection con = DAL.DAL_DB_Connect.connection;
-                SqlCommand command = new SqlCommand("updateOffice", con);
 
+                SqlCommand command = getCommand("updateOffice");
                 command.Parameters.Add("@officeID", System.Data.SqlDbType.VarChar).Value = office.OfficeID;
                 command.Parameters.Add("@officeName", System.Data.SqlDbType.VarChar).Value = office.OfficeName;
+
+                return command.ExecuteNonQuery() >= 0;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        
+
+        public bool deleteOffice(string officeID)
+        {
+            try
+            {
+                SqlCommand command = getCommand("deleteOffice");
+                command.Parameters.Add("@officeID", System.Data.SqlDbType.VarChar).Value = officeID;
 
                 return command.ExecuteNonQuery() >= 0;
             }
