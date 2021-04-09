@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Data.SqlClient;
+using System.Data;
 using DTO;
 namespace DAL
 {
@@ -12,17 +13,19 @@ namespace DAL
             SqlConnection con = DAL.DAL_DB_Connect.connection;
             return  new SqlCommand(commandText, con);
         }
-        public SqlDataReader login(DTO.DTO_Admin user)
+        public DataTable login(DTO.DTO_Admin user)
         {
+
+            DataTable datatable = new DataTable();
             try
             {
                 SqlCommand command = getCommand("adminLogin");
                 command.CommandType = System.Data.CommandType.StoredProcedure;
 
-                command.Parameters.Add("username", System.Data.SqlDbType.VarChar).Value = user.UserName;
-                command.Parameters.Add("password", System.Data.SqlDbType.VarChar).Value = user.UserPass;
+                SqlDataAdapter sda = new SqlDataAdapter(command);
 
-                return command.ExecuteReader();
+                sda.Fill(datatable);
+                return datatable;
             }
             catch
             {
