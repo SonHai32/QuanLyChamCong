@@ -8,9 +8,12 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
 
+<<<<<<< HEAD
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
     <ProjectReference Include="..\DTO\DTO.csproj" />
   </ItemGroup>
 
+=======
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
 </Project>

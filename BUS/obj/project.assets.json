@@ -130,6 +130,7 @@
             "rid": "win"
           }
         }
+<<<<<<< HEAD
       },
       "DAL/1.0.0": {
         "type": "project",
@@ -157,6 +158,8 @@
         "runtime": {
           "bin/placeholder/DTO.dll": {}
         }
+=======
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
       }
     }
   },
@@ -473,6 +476,7 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+<<<<<<< HEAD
     },
     "DAL/1.0.0": {
       "type": "project",
@@ -483,12 +487,17 @@
       "type": "project",
       "path": "../DTO/DTO.csproj",
       "msbuildProject": "../DTO/DTO.csproj"
+=======
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+<<<<<<< HEAD
       "DAL >= 1.0.0",
       "DTO >= 1.0.0",
+=======
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -518,6 +527,7 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+<<<<<<< HEAD
           "projectReferences": {
             "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DAL\\DAL.csproj": {
               "projectPath": "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DAL\\DAL.csproj"
@@ -526,6 +536,9 @@
               "projectPath": "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DTO\\DTO.csproj"
             }
           }
+=======
+          "projectReferences": {}
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
         }
       },
       "warningProperties": {

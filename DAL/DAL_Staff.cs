@@ -7,11 +7,19 @@ using DTO;
 
 namespace DAL
 {
+<<<<<<< HEAD
     public class DAL_Staff
     {
         SqlConnection con = DAL.DAL_DB_Connect.connection;
         
         public bool insertData(DTO.DTO_Staff staff)
+=======
+    class DAL_Staff
+    {
+        SqlConnection con = DAL.DAL_DB_Connect.connection;
+        
+        public bool InsertStaffData(DTO.DTO_Staff staff)
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
         {
             try
             {
@@ -36,6 +44,7 @@ namespace DAL
             }
         }
 
+<<<<<<< HEAD
         public bool updateData(DTO.DTO_Staff staff)
         {
             try
@@ -60,6 +69,8 @@ namespace DAL
                 return false;
             }
         }
+=======
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
         public bool DeleteStaffData(string staffID)
         {
             try

@@ -27,6 +27,7 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
+<<<<<<< HEAD
             "projectReferences": {
               "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DAL\\DAL.csproj": {
                 "projectPath": "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DAL\\DAL.csproj"
@@ -158,6 +159,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
+=======
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
             "projectReferences": {}
           }
         },

@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "78waUEfI9QXli7p/5vKQL5VEAGCvIPMeuPRKN1zUF5QcBGy1EU6Tv46lBHbeBRzYxMHxn40hJgeDgPeDeJAmjw==",
+=======
+  "dgSpecHash": "0JhqU5AsFGoLvKlTljHDavZ+X90HUNSDOdoUPdIOPuMV3hDXL9z2/fINeAlbkxIyXENUU7GFurIaggydqFSuaA==",
+>>>>>>> ddb07760feef69e7a82cd2372d5dad16c9fc6145
   "success": true,
   "projectFilePath": "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\BUS\\BUS.csproj",
   "expectedPackageFiles": [
