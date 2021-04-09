@@ -2,7 +2,7 @@
 
 namespace BUS
 {
-    public class Class1
+    public class BUS_Staff
     {
     }
 }

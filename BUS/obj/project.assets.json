@@ -130,6 +130,33 @@
             "rid": "win"
           }
         }
+      },
+      "DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "DTO": "1.0.0",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.dll": {}
+        }
+      },
+      "DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DTO.dll": {}
+        }
       }
     }
   },
@@ -446,10 +473,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DAL/1.0.0": {
+      "type": "project",
+      "path": "../DAL/DAL.csproj",
+      "msbuildProject": "../DAL/DAL.csproj"
+    },
+    "DTO/1.0.0": {
+      "type": "project",
+      "path": "../DTO/DTO.csproj",
+      "msbuildProject": "../DTO/DTO.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "DAL >= 1.0.0",
+      "DTO >= 1.0.0",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
@@ -479,7 +518,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DAL\\DAL.csproj": {
+              "projectPath": "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DAL\\DAL.csproj"
+            },
+            "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DTO\\DTO.csproj": {
+              "projectPath": "F:\\WinForm_Applications_Projects\\QL_Cham_Cong\\DTO\\DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
