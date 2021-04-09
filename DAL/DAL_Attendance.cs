@@ -50,7 +50,6 @@ namespace DAL
             }
             catch
             {
-
                 return false;
             }
         }
